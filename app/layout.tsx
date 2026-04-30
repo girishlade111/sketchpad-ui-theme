@@ -96,7 +96,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistMono.variable} antialiased`} theme-color="#000000">
+    <html lang="en" className={`${inter.variable} antialiased`} theme-color="#000000">
       <body className="font-mono">
         <Suspense>{children}</Suspense>
       </body>
