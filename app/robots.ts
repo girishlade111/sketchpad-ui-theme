@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       crawlDelay: 1,
     },
-    sitemap: "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme/sitemap.xml",
+    sitemap: "https://sketchpad.example.com/sitemap.xml",
   }
 }
