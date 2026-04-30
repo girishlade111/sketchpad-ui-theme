@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme"),
+  metadataBase: new URL("https://sketchpad.example.com"),
   title: {
     default: "Sketchpad - Modern UI Theme | shadcn/ui Next.js",
     template: "%s | Sketchpad - shadcn/ui Theme",
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     "accessibility",
     "Radix UI",
   ],
-  authors: [{ name: "Sketchpad", url: "https://v0.app" }],
-  creator: "v0.app",
-  publisher: "Vercel",
-  generator: "v0.app",
+  authors: [{ name: "Sketchpad" }],
+  creator: "Sketchpad",
+  publisher: "Sketchpad",
+  generator: "Next.js",
   applicationName: "Sketchpad",
   referrer: "origin-when-cross-origin",
   robots: {
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme",
+    url: "https://sketchpad.example.com",
     siteName: "Sketchpad",
     title: "Sketchpad - Modern UI Theme | shadcn/ui Next.js",
     description: "A modern, responsive web application built with Next.js 14, React 18, Tailwind CSS 4, and shadcn/ui components. Features dark/light mode, accessibility-first design, and premium UI components.",
@@ -68,21 +68,18 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sketchpad - Modern UI Theme | shadcn/ui Next.js",
     description: "A modern, responsive web application built with Next.js 14, React 18, Tailwind CSS 4, and shadcn/ui components.",
-    creator: "@v0app",
+    creator: "@sketchpad",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme",
+    canonical: "https://sketchpad.example.com",
     languages: {
-      en: "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme",
+      en: "https://sketchpad.example.com",
     },
   },
   category: "technology",
   classification: "Web Application",
   manifest: "/manifest.json",
-  verification: {
-    google: "google-site-verification-code",
-  },
 }
 
 export const viewport = {

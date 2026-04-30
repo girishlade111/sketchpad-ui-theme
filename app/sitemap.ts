@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme"
+  const baseUrl = "https://sketchpad.example.com"
 
   return [
     {
