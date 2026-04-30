@@ -48,7 +48,7 @@ flowchart TB
     end
 
     subgraph "Deployment"
-        M[Vercel Platform]
+        M[Cloud Platform]
         N[GitHub Repository]
         O[CDN Edge Network]
     end
