@@ -10,9 +10,75 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
+  metadataBase: new URL("https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme"),
+  title: {
+    default: "Sketchpad - Modern UI Theme | shadcn/ui Next.js",
+    template: "%s | Sketchpad - shadcn/ui Theme",
+  },
+  description: "A modern, responsive web application built with Next.js 14, React 18, Tailwind CSS 4, and shadcn/ui components. Features dark/light mode, accessibility-first design, and premium UI components.",
+  keywords: [
+    "Next.js",
+    "React",
+    "shadcn/ui",
+    "Tailwind CSS",
+    "UI components",
+    "web development",
+    "modern UI",
+    "responsive design",
+    "TypeScript",
+    "dark mode",
+    "light mode",
+    "accessibility",
+    "Radix UI",
+  ],
+  authors: [{ name: "Sketchpad", url: "https://v0.app" }],
+  creator: "v0.app",
+  publisher: "Vercel",
   generator: "v0.app",
+  applicationName: "Sketchpad",
+  referrer: "origin-when-cross-origin",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme",
+    siteName: "Sketchpad",
+    title: "Sketchpad - Modern UI Theme | shadcn/ui Next.js",
+    description: "A modern, responsive web application built with Next.js 14, React 18, Tailwind CSS 4, and shadcn/ui components. Features dark/light mode, accessibility-first design, and premium UI components.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sketchpad - Modern UI Theme",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sketchpad - Modern UI Theme | shadcn/ui Next.js",
+    description: "A modern, responsive web application built with Next.js 14, React 18, Tailwind CSS 4, and shadcn/ui components.",
+    creator: "@v0app",
+    images: ["/og-image.png"],
+  },
+  alternates: {
+    canonical: "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme",
+    languages: {
+      en: "https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme",
+    },
+  },
+  category: "technology",
+  classification: "Web Application",
 }
 
 export default function RootLayout({
