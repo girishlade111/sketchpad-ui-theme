@@ -2,8 +2,6 @@
 
 > A modern, responsive web application built with Next.js 14, React 18, Tailwind CSS 4, and shadcn/ui components. Features dark/light mode, accessibility-first design, and premium UI components.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/wkuKkbxMuTR)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
@@ -20,8 +18,6 @@
 - Responsive design with mobile-first approach
 - Type-safe forms with React Hook Form + Zod
 - Rich data visualization with Recharts
-
-This repository stays in sync with your deployed chats on [v0.app](https://v0.app). Any changes you make to your deployed app will be automatically pushed to this repository.
 
 ---
 
@@ -417,32 +413,31 @@ export function ThemeToggle() {
 
 ## Deployment
 
-> **Live URL:**
-> **[https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme](https://vercel.com/gileb64375-5584s-projects/v0-sketchpad-shadcn-ui-theme)**
-
 ### Build for Production
 
 ```bash
 npm run build
 ```
 
-The built application will be in the `.next` directory, ready for deployment to Vercel or any Node.js hosting platform.
+The built application will be in the `.next` directory, ready for deployment to any Node.js hosting platform.
 
 ### Deployment Platforms
 
-- **Vercel** (Recommended) - Zero-config deployment
+- **Vercel** - Zero-config deployment
 - **Netlify** - Drag & drop deployment
 - **Railway** - Docker-based deployment
 - **AWS** - Custom deployment with EC2/Docker
+- **Self-hosted** - Docker-based deployment
 
 ---
 
-## How It Works
+## How to Contribute
 
-1. **Create & Modify** - Build your project using [v0.app](https://v0.app)
-2. **Deploy** - Deploy your chats from the v0 interface
-3. **Auto-Sync** - Changes are automatically pushed to this repository
-4. **CDN** - Vercel deploys the latest version from this repository
+1. **Fork** - Fork this repository
+2. **Clone** - Clone your fork locally
+3. **Develop** - Make your changes
+4. **Test** - Run `npm run build` to verify
+5. **Submit** - Create a Pull Request
 
 ---
 
@@ -460,7 +455,6 @@ The built application will be in the `.next` directory, ready for deployment to 
 | shadcn/ui | https://ui.shadcn.com |
 | Tailwind CSS | https://tailwindcss.com |
 | Radix UI | https://www.radix-ui.com |
-| v0.app | https://v0.app |
 | TypeScript | https://www.typescriptlang.org |
 
 ---
@@ -473,6 +467,4 @@ The built application will be in the `.next` directory, ready for deployment to 
 
 ## Credits
 
-- Built with [v0.app](https://v0.app)
 - UI Components by [shadcn/ui](https://ui.shadcn.com)
-- Deployed on [Vercel](https://vercel.com)
