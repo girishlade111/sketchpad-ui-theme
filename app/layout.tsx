@@ -1,10 +1,10 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { GeistMono } from "next/font/google"
+import { Inter } from "next/font/google"
 import "./globals.css"
 import { Suspense } from "react"
 
-const geistMono = GeistMono({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-geist-mono",
 })
