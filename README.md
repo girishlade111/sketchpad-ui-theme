@@ -465,6 +465,10 @@ The built application will be in the `.next` directory, ready for deployment to 
 
 ---
 
+---
+
+Built by Girish Lade — https://ladestack.in
+
 ## Credits
 
 - UI Components by [shadcn/ui](https://ui.shadcn.com)
